@@ -1,7 +1,7 @@
 milk_cost = 300
 
 def mymoney() :
-    money = 5000
+    money = 4000
     while money >= 2000 :
         money = int(input("투입할 금액 : "))
         if money < 2000 :
