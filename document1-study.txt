@@ -4,8 +4,8 @@ plt.rcParams['font,family'] = 'Malgun Gothic'
 plt.rcParams['axes.unicode_minus'] = False
 
 
-names = ['Apple', 'LG', 'others']
-data = [30, 50, 20]
+names = ['Samsung', 'TESLA', 'others']
+data = [10, 20, 70]
 fig, ax = plt.subplots(figsize = (6, 5))
 ax.bar(names, data, color='white', edgecolor='black', width=0.25, linestyle='-.')
 ax.set_xlabel('회사')
