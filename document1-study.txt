@@ -3,11 +3,10 @@ import matplotlib.pyplot as plt
 plt.rcParams['font,family'] = 'Malgun Gothic'
 plt.rcParams['axes.unicode_minus'] = False
 
-
 names = ['Samsung', 'TESLA', 'others']
-data = [10, 20, 70]
+data = [20, 10, 70]
 fig, ax = plt.subplots(figsize = (6, 5))
 ax.bar(names, data, color='white', edgecolor='black', width=0.25, linestyle='-.')
-
+ax.set_title('자동차 시장 점유율')
 fig.savefig('a.png', transparent=True, dpi=600)
 plt.show() 

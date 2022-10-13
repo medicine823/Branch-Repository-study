@@ -1,8 +1,7 @@
 milk_cost = 300
 
-
 def mymoney() :
-    money = 3000
+    money = 5000
     while money >= 2000 :
         money = int(input("투입할 금액 : "))
         if money < 2000 :
@@ -12,7 +11,7 @@ def mymoney() :
 
 def menu() :
     print("1 : 우유 (300원)")
-    print("5 : 종료")
+    print("2 : 종료")
 
 def productbuy(my_money) :
 
@@ -22,7 +21,7 @@ def productbuy(my_money) :
         if select == 1:
             if my_money>=milk_cost :
                 my_money-=milk_cost
-        elif select == 5:
+        elif select == 2:
             break
         else :
             print("다시 입력하세요")
