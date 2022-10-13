@@ -8,8 +8,6 @@ names = ['Samsung', 'TESLA', 'others']
 data = [10, 20, 70]
 fig, ax = plt.subplots(figsize = (6, 5))
 ax.bar(names, data, color='white', edgecolor='black', width=0.25, linestyle='-.')
-ax.set_xlabel('회사')
-ax.set_ylabel('시장점유율')
-ax.set_title('기업 시장점유율')
+
 fig.savefig('a.png', transparent=True, dpi=600)
 plt.show() 
